@@ -1,0 +1,15 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  margin: 20px;
+  text-align: justify;
+}
+
+header {
+  margin: 15px;
+  font-size: x-large;
+}
