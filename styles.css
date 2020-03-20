@@ -1,15 +1,54 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #f7f3e3;
   font-family: "Roboto", sans-serif;
   padding: 0px;
   margin: 0px;
 }
 
+nav {
+  background-color: #af9164;
+  max-width: 250px;
+  height: 100vh;
+  position: fixed;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  border-top: 1px solid #f7f3e3;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin-left: 250px;
+}
+
+nav header {
+  padding: 35px 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: auto;
+}
+
 section {
-  margin: 20px;
+  padding: 20px;
   text-align: justify;
 }
 
 header {
-  margin: 15px;
-  font-size: x-large;
+  padding: 10px 40px;
+  font-size: 25px;
+  background-color: #af9164;
+}
+
+li {
+  padding: 3px 20px;
 }
